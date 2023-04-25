@@ -1,0 +1,488 @@
+local V3Obama = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+V3Obama.Name = "V3 Obama"
+V3Obama.Parent = game.CoreGui
+V3Obama.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = V3Obama
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.565992296, 0, 0.485599071, 0)
+Frame.Size = UDim2.new(0, 246, 0, 309)
+Frame.Active = true
+Frame.Draggable = true
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.Size = UDim2.new(0, 245, 0, 308)
+
+ImageLabel.Parent = ScrollingFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0, 0, -0.0161391851, 0)
+ImageLabel.Size = UDim2.new(0, 230, 0, 316)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6877108236"
+
+ImageLabel_2.Parent = ImageLabel
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.Position = UDim2.new(0, 0, 0.999970376, 0)
+ImageLabel_2.Size = UDim2.new(0, 230, 0, 316)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6877108236"
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0612244904, 0, 0.0113268606, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Obama DecalSpam"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0612244904, 0, 0.110032365, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Obama Admin"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+	print('Working')
+end)
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0612244904, 0, 0.208737865, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Disco"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.0612244904, 0, 0.30744338, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Obama Screen"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0612244904, 0, 0.406148881, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Obama Load Sound"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.0612244904, 0, 0.496763766, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Obama Shutdown"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.0612244904, 0, 0.595469236, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Obama kill all"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.0612244904, 0, 0.697411001, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Obama Create Baseplate"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+TextButton_8.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.0612244904, 0, 0.797734618, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Spooky Scary Skeleton"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+TextButton_9.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0, 0, -0.100323625, 0)
+TextLabel.Size = UDim2.new(0, 246, 0, 31)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "team INC0MU V3 Obama"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+-- Scripts:
+
+local function NIKO_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local ID = 6057106071
+	
+	
+		local Skybox = true
+	
+	
+		local particle = true
+	
+	
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Part") then
+				local decal1 =Instance.new("Decal")
+				local decal2 =Instance.new("Decal")
+				local decal3 =Instance.new("Decal")
+				local decal4 =Instance.new("Decal")
+				local decal5 =Instance.new("Decal")
+				local decal6 =Instance.new("Decal")
+				decal1.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal3.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal4.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal5.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal6.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal1.Parent = v
+				decal2.Parent = v
+				decal3.Parent = v
+				decal4.Parent = v
+				decal5.Parent = v
+				decal6.Parent = v
+				decal1.Face = "Front"
+				decal2.Face = "Top"
+				decal3.Face = "Left"
+				decal4.Face = "Right"
+				decal5.Face = "Bottom"
+				decal6.Face = "Back"
+			end
+		end
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Model") then
+				for i,z in pairs (v:GetChildren()) do
+					if z:IsA("Part") then
+						local decal7 =Instance.new("Decal")
+						local decal8 =Instance.new("Decal")
+						local decal9 =Instance.new("Decal")
+						local decal10 =Instance.new("Decal")
+						local decal11 =Instance.new("Decal")
+						local decal12 =Instance.new("Decal")
+						decal7.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal8.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal9.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal10.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal11.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal12.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal7.Parent = z
+						decal8.Parent = z
+						decal9.Parent = z
+						decal10.Parent = z
+						decal11.Parent = z
+						decal12.Parent = z
+						decal7.Face = "Front"
+						decal8.Face = "Top"
+						decal9.Face = "Left"
+						decal10.Face = "Right"
+						decal11.Face = "Bottom"
+						decal12.Face = "Back"
+					end
+				end
+			end
+		end	
+	
+	
+		if Skybox == true then
+			local sky = Instance.new("Sky")
+			sky.Parent = game.Lighting
+			sky.SkyboxBk = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxDn = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxFt = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxLf = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxRt = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxUp = "http://www.roblox.com/asset/?id=" ..ID
+		end
+	
+		if particle == true then
+			for i,v in pairs (game.Workspace:GetChildren()) do
+				if v:IsA("Part") then
+					local particle = Instance.new("ParticleEmitter")
+					particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+					particle.Parent = v
+					particle.Rate = 200
+					for i,x in pairs (game.Workspace:GetChildren()) do
+						if x:IsA("Model") then
+							for i,z in pairs (x:GetChildren()) do
+								if z:IsA("Part") then
+									local particle2 = Instance.new("ParticleEmitter")
+									particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+									particle2.Parent = z
+									particle2.Rate = 200
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(NIKO_fake_script)()
+local function WRRUDRM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	_G.CustomUI = false
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+	end)
+end
+coroutine.wrap(WRRUDRM_fake_script)()
+local function YLMK_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	while true do
+	wait(0.5)
+	game.Lighting.Ambient = Color3.new(math.random(), math.random(), math.random())
+	game.Lighting.ColorShift_Top = Color3.new(math.random(), math.random(), math.random())
+	game.Lighting.ColorShift_Bottom = Color3.new(math.random(), math.random(), math.random())
+	game.Lighting.ShadowColor = Color3.new(math.random(), math.random(), math.random())
+	   end
+	end)
+end
+coroutine.wrap(YLMK_fake_script)()
+local function NSZAIJA_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local ScreenGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local obama = Instance.new("ImageLabel")
+	
+	ScreenGui.Parent = game.CoreGui
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+	Frame.Parent = ScreenGui
+	Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Frame.Size = UDim2.new(0, 100, 0, 100)
+	Frame.Active = true
+	
+	obama.Name = "obama"
+	obama.Parent = Frame
+	obama.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	obama.Position = UDim2.new(-0.00677108765, 0, 0.909967661, 0)
+	obama.Size = UDim2.new(0, 2076, 0, 1092)
+	obama.Image = "http://www.roblox.com/asset/?id=6057106071"	
+	end)
+end
+coroutine.wrap(NSZAIJA_fake_script)()
+local function ADKCQCE_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local Sound = Instance.new("Sound")
+	
+	local Id = "13251547482"
+	
+	Sound.Parent = game.Workspace
+	Sound.SoundId = "rbxassetid://"..Id
+	Sound.Playing = true
+	Sound.Looped = true
+	Sound.Volume = 1
+	end)
+end
+coroutine.wrap(ADKCQCE_fake_script)()
+local function YQOCJN_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local players = game:GetService("Players")
+	local message = "Hacked by team INC0MU!"
+	
+	function Shutdown()
+		for i, v in pairs(players:GetChildren()) do
+			v:Kick(message)
+		end
+	end
+	
+	Shutdown()
+	end)
+end
+coroutine.wrap(YQOCJN_fake_script)()
+local function HGSNQ_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	wait(1)
+	local players = game.Players:GetChildren()
+	for i = 1, #players do
+		players[i].Character.Head:Destroy()
+		wait()
+	end
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(HGSNQ_fake_script)()
+local function XAUEO_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	b = Instance.new("Part", Workspace)
+	b.Size = Vector3.new(400, 2, 400)	
+	b.BrickColor = BrickColor.new("Dark Green")
+	end)
+end
+coroutine.wrap(XAUEO_fake_script)()
+local function HVWIBLS_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local Sound = Instance.new("Sound")
+	
+	local Id = "12392502112"
+	
+	Sound.Parent = game.Workspace
+	Sound.SoundId = "rbxassetid://"..Id
+	Sound.Playing = true
+	Sound.Looped = true
+	Sound.Volume = 12
+	end)
+end
+coroutine.wrap(HVWIBLS_fake_script)()
+local function DQCAFVA_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(DQCAFVA_fake_script)()
+local function UKOKYYG_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(UKOKYYG_fake_script)()
